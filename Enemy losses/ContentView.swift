@@ -16,7 +16,9 @@ struct ContentView: View {
                
             }
                 .navigationTitle(Text("Enemy Losses"))
+                .background(Image("flag").ignoresSafeArea(.all).opacity(0.7))
         }
+        
         
        
     }

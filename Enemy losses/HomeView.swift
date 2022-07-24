@@ -94,6 +94,6 @@ struct PersonnelCell: View {
             .cornerRadius(10)
         }
         .padding()
-        .background(RoundedRectangle(cornerRadius: 10).foregroundColor(.gray).opacity(0.5))
+        .background(RoundedRectangle(cornerRadius: 10).foregroundColor(.white).opacity(0.5))
     }
 }
