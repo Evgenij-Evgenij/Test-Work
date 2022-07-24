@@ -12,10 +12,10 @@ struct ContentView: View {
         NavigationView{
            
                 VStack {
-                    FirstView()
+                    HomeView()
                
             }
-            .navigationTitle(Text("Enemy Losses"))
+                .navigationTitle(Text("Enemy Losses"))
         }
         
        

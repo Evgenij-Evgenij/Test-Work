@@ -11,14 +11,11 @@
 		CE46AB6C288B301600956C30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AB6B288B301600956C30 /* ContentView.swift */; };
 		CE46AB6E288B301800956C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE46AB6D288B301800956C30 /* Assets.xcassets */; };
 		CE46AB71288B301800956C30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE46AB70288B301800956C30 /* Preview Assets.xcassets */; };
-		CE46AB78288B312100956C30 /* ModelPersonal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AB77288B312100956C30 /* ModelPersonal.swift */; };
-		CE46AB7B288B337D00956C30 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AB7A288B337D00956C30 /* FirstView.swift */; };
-		CE46AB7D288B33B400956C30 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AB7C288B33B400956C30 /* GetData.swift */; };
-		CE475C65288BFEFF00DA5445 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE475C64288BFEFF00DA5445 /* SecondView.swift */; };
-		CE475C67288C0B8C00DA5445 /* ModelEquipment2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE475C66288C0B8C00DA5445 /* ModelEquipment2.swift */; };
-		CE475C69288C230100DA5445 /* GetDataEquip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE475C68288C230100DA5445 /* GetDataEquip.swift */; };
-		CE712835288CAC0D0007AA42 /* EightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712834288CAC0D0007AA42 /* EightData.swift */; };
-		CEC19344288C4431000F3291 /* ModelEquipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC19343288C4431000F3291 /* ModelEquipment.swift */; };
+		CE46AB78288B312100956C30 /* PersonalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AB77288B312100956C30 /* PersonalModel.swift */; };
+		CE46AB7B288B337D00956C30 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AB7A288B337D00956C30 /* HomeView.swift */; };
+		CE46AB7D288B33B400956C30 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46AB7C288B33B400956C30 /* NetworkManager.swift */; };
+		CE475C65288BFEFF00DA5445 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE475C64288BFEFF00DA5445 /* DetailView.swift */; };
+		CEC19344288C4431000F3291 /* EquipmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC19343288C4431000F3291 /* EquipmentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,14 +24,11 @@
 		CE46AB6B288B301600956C30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE46AB6D288B301800956C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE46AB70288B301800956C30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CE46AB77288B312100956C30 /* ModelPersonal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPersonal.swift; sourceTree = "<group>"; };
-		CE46AB7A288B337D00956C30 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
-		CE46AB7C288B33B400956C30 /* GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
-		CE475C64288BFEFF00DA5445 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
-		CE475C66288C0B8C00DA5445 /* ModelEquipment2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEquipment2.swift; sourceTree = "<group>"; };
-		CE475C68288C230100DA5445 /* GetDataEquip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataEquip.swift; sourceTree = "<group>"; };
-		CE712834288CAC0D0007AA42 /* EightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightData.swift; sourceTree = "<group>"; };
-		CEC19343288C4431000F3291 /* ModelEquipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEquipment.swift; sourceTree = "<group>"; };
+		CE46AB77288B312100956C30 /* PersonalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalModel.swift; sourceTree = "<group>"; };
+		CE46AB7A288B337D00956C30 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE46AB7C288B33B400956C30 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CE475C64288BFEFF00DA5445 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CEC19343288C4431000F3291 /* EquipmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +63,9 @@
 			children = (
 				CE46AB69288B301600956C30 /* Enemy_lossesApp.swift */,
 				CE46AB6B288B301600956C30 /* ContentView.swift */,
-				CE46AB7A288B337D00956C30 /* FirstView.swift */,
-				CE475C64288BFEFF00DA5445 /* SecondView.swift */,
-				CE46AB7C288B33B400956C30 /* GetData.swift */,
-				CE475C68288C230100DA5445 /* GetDataEquip.swift */,
+				CE46AB7A288B337D00956C30 /* HomeView.swift */,
+				CE475C64288BFEFF00DA5445 /* DetailView.swift */,
+				CE46AB7C288B33B400956C30 /* NetworkManager.swift */,
 				CE46AB79288B326B00956C30 /* Model */,
 				CE46AB6D288B301800956C30 /* Assets.xcassets */,
 				CE46AB6F288B301800956C30 /* Preview Content */,
@@ -91,10 +84,8 @@
 		CE46AB79288B326B00956C30 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CE46AB77288B312100956C30 /* ModelPersonal.swift */,
-				CEC19343288C4431000F3291 /* ModelEquipment.swift */,
-				CE475C66288C0B8C00DA5445 /* ModelEquipment2.swift */,
-				CE712834288CAC0D0007AA42 /* EightData.swift */,
+				CE46AB77288B312100956C30 /* PersonalModel.swift */,
+				CEC19343288C4431000F3291 /* EquipmentModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,16 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE475C65288BFEFF00DA5445 /* SecondView.swift in Sources */,
-				CE475C67288C0B8C00DA5445 /* ModelEquipment2.swift in Sources */,
+				CE475C65288BFEFF00DA5445 /* DetailView.swift in Sources */,
 				CE46AB6C288B301600956C30 /* ContentView.swift in Sources */,
-				CE712835288CAC0D0007AA42 /* EightData.swift in Sources */,
-				CE475C69288C230100DA5445 /* GetDataEquip.swift in Sources */,
-				CE46AB7B288B337D00956C30 /* FirstView.swift in Sources */,
-				CE46AB7D288B33B400956C30 /* GetData.swift in Sources */,
+				CE46AB7B288B337D00956C30 /* HomeView.swift in Sources */,
+				CE46AB7D288B33B400956C30 /* NetworkManager.swift in Sources */,
 				CE46AB6A288B301600956C30 /* Enemy_lossesApp.swift in Sources */,
-				CEC19344288C4431000F3291 /* ModelEquipment.swift in Sources */,
-				CE46AB78288B312100956C30 /* ModelPersonal.swift in Sources */,
+				CEC19344288C4431000F3291 /* EquipmentModel.swift in Sources */,
+				CE46AB78288B312100956C30 /* PersonalModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

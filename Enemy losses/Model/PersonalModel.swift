@@ -1,5 +1,5 @@
 //
-//  ModelPersonal.swift
+//  PersonalModel.swift
 //  Enemy losses
 //
 //  Created by Евгений Воронов on 23.07.2022.
@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-struct ModelPersonal: Codable{
-//    var id = UUID()
+struct PersonalModel: Codable{
     var date: String
     var day: Int
     var personnel: Int

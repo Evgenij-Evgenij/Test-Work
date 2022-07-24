@@ -1,5 +1,5 @@
 //
-//  File.ModelEquipment
+//  File.EquipmentModel
 //  Enemy losses
 //
 //  Created by Евгений Воронов on 23.07.2022.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ModelEquipment: Codable, Identifiable {
+struct EquipmentModel: Codable, Identifiable {
     let id = UUID()
     let date: String
     let day: Day
@@ -36,6 +36,16 @@ struct ModelEquipment: Codable, Identifiable {
         case vehiclesAndFuelTanks = "vehicles and fuel tanks"
         case cruiseMissiles = "cruise missiles"
     }
+    
+    var dayformated: String {
+        switch day {
+        case .integer(let int):
+            return String(int)
+            
+        case .string(let str):
+            return str
+        }
+    }
 }
 
 enum Day: Codable {
@@ -54,6 +64,7 @@ enum Day: Codable {
         }
         throw DecodingError.typeMismatch(Day.self, DecodingError.Context(codingPath: decoder.codingPath, debugDescription: "Wrong type for Day"))
     }
+    
 
     func encode(to encoder: Encoder) throws {
         var container = encoder.singleValueContainer()
