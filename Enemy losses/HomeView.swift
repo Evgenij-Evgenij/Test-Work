@@ -33,7 +33,7 @@ struct HomeView: View {
                 }
             case .failure(let error):
                 errorMessage = error.message
-            
+                
             }
         }
     }
@@ -63,7 +63,7 @@ struct PersonnelCell: View {
             }
             HStack {
                 Text("Особового складу: ")
-                    
+                
                 Spacer()
                 Text("\(personnel.personnel)")
                     .bold()
@@ -85,7 +85,7 @@ struct PersonnelCell: View {
                     Spacer()
                     Text(personnel.more)
                     Spacer()
-                       
+                    
                 }
             }
             .foregroundColor(.yellow)

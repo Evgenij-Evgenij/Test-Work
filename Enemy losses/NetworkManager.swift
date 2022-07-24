@@ -48,7 +48,6 @@ class NetworkManager {
         }
         .resume()
     }
-    
 }
 
 enum NetworkError: Error {

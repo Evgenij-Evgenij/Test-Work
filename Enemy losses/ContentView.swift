@@ -10,17 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView{
-           
-                VStack {
-                    HomeView()
-               
+            
+            VStack {
+                HomeView()
             }
-                .navigationTitle(Text("Enemy Losses"))
-                .background(Image("flag").ignoresSafeArea(.all).opacity(0.7))
+            .navigationTitle(Text("Enemy Losses"))
+            .background(Image("flag").ignoresSafeArea(.all).opacity(0.7))
         }
-        
-        
-       
     }
 }
 

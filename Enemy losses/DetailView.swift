@@ -100,9 +100,8 @@ struct DetailView: View {
             
             .onAppear() {
                 LoadEquipmant()
+            }
         }
-        }
-        
     }
     func LoadEquipmant() {
         NetworkManager().loadEquipmentLosses { result in
